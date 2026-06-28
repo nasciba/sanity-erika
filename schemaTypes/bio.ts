@@ -17,4 +17,5 @@ export const bioType = defineType({
       type: 'image',
     }),
   ],
-})
+});
+
