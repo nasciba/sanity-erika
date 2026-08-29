@@ -139,14 +139,6 @@ export const linguagensType = defineType({
         return 'Selecione o tipo de conteúdo.'
       }
 
-      if (mediaType === 'obras' && hasVideo) {
-        return 'Selecione apenas uma opção: obras ou vídeo.'
-      }
-
-      if (mediaType === 'video' && hasObras) {
-        return 'Selecione apenas uma opção: obras ou vídeo.'
-      }
-
       if (mediaType === 'obras' && !hasObras) {
         return 'Adicione pelo menos uma obra.'
       }
